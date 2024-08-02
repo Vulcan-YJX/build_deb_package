@@ -6,6 +6,7 @@ VERSION="1.0.0"
 ARCH="amd64"
 MAINTAINER="Your Name <your.email@example.com>"
 DESCRIPTION="My ROS 2 package"
+DEPENDENCIES="libpcl-dev"
 
 # 创建目录结构
 mkdir -p ${PACKAGE_NAME}/DEBIAN
